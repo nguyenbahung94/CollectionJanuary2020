@@ -7,8 +7,8 @@ import com.example.collectionjanuary2020.R
 import kotlinx.android.synthetic.main.motionlayout_main_activity.*
 
 class MotionLayoutMainActivity : AppCompatActivity() {
-   // private val searchFragment by lazy { supportFragmentManager.findFragmentById(R.id.searchFragment) as SearchFragment }
-  //  private val settingsFragment by lazy { supportFragmentManager.findFragmentById(R.id.settingsFragment) as SettingsFragment }
+    private val searchFragment by lazy { supportFragmentManager.findFragmentById(R.id.searchFragment) as SearchFragment }
+    private val settingsFragment by lazy { supportFragmentManager.findFragmentById(R.id.settingsFragment) as SettingsFragment }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,7 +50,7 @@ class MotionLayoutMainActivity : AppCompatActivity() {
                 }
             }
             MotionWrapper.MOTION_PROGRESS -> {
-                  motionLayout.progress = motionWrapper.progress
+                motionLayout.progress = motionWrapper.progress
             }
         }
     }
@@ -64,11 +64,11 @@ class MotionLayoutMainActivity : AppCompatActivity() {
     }
 
     private fun transitionFromSearchPage() {
-      //   searchFragment.revertMotion()
+        searchFragment.revertMotion()
     }
 
     private fun transitionFromSettingsPage() {
-       //    settingsFragment.revertMotion()
+        settingsFragment.revertMotion()
     }
 
     override fun onBackPressed() {
