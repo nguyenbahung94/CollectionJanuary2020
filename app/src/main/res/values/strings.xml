@@ -18,4 +18,8 @@
 
     <string name="fragment_dialog_title">This is a fragment Dialog</string>
     <string name="fragment_dialog_description">This is a DSL to create custom Dialogs using Dialog Fragment</string>
+    <string name="fan_off">off</string>
+    <string name="fan_low">1</string>
+    <string name="fan_medium">2</string>
+    <string name="fan_high">3</string>
 </resources>

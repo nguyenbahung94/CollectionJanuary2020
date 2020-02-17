@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".builder.MainActivityDSL">
+
+        <activity android:name=".advance_kotlin.customview.AdvanceMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +25,18 @@
         <activity
             android:name=".builder.permission.PermissionActivity"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+
+
+        <!--<activity android:name=".builder.MainActivityDSL">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".builder.permission.PermissionActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />-->
 
         <!--  <activity android:name=".motionlayout.MotionLayoutMainActivity">
               <intent-filter>

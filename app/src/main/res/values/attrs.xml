@@ -17,4 +17,10 @@
     <declare-styleable name="SingleViewTouchableMotionLayout">
         <attr name="touchId" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="DialView">
+        <attr name="fanColor1" format="color" />
+        <attr name="fanColor2" format="color" />
+        <attr name="fanColor3" format="color" />
+    </declare-styleable>
 </resources>

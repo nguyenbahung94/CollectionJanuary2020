@@ -13,4 +13,6 @@
     <dimen name="horizontal_margin_medium">24dp</dimen>
     <dimen name="search_hidden_height">96dp</dimen>
     <dimen name="toolbar_height">76dp</dimen>
+    <dimen name="fan_dimen">200dp</dimen>
+    <dimen name="default_margin">16dp</dimen>
 </resources>
