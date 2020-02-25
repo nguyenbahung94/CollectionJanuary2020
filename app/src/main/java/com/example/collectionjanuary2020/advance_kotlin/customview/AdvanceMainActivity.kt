@@ -6,6 +6,7 @@ import com.example.collectionjanuary2020.R
 
 class AdvanceMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_customview)
     }

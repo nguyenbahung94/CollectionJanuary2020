@@ -15,17 +15,29 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".advance_kotlin.customview.AdvanceMainActivity">
+        <activity android:name=".splash.new.CoroutinesSplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".builder.permission.PermissionActivity"
-            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+        <activity android:name=".advance_kotlin.customview.AdvanceMainActivity" />
 
+
+        <!-- <activity
+             android:name=".advance_kotlin.customview.AdvanceMainActivity"
+             android:theme="@style/AppTheme.Splash.old">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+         <activity
+             android:name=".builder.permission.PermissionActivity"
+             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+ -->
 
         <!--<activity android:name=".builder.MainActivityDSL">
             <intent-filter>
