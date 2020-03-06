@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply from: '../ktlint.gradle'
+
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
@@ -26,6 +28,8 @@ android {
     }
 }
 
+check.dependsOn ktlint
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -38,7 +42,6 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$junit_ext_version"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_core_version"
     androidTestImplementation 'androidx.test:runner:1.3.0-alpha03'
-
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3"
 
