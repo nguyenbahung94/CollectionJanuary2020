@@ -5,6 +5,8 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,14 +17,39 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".splash.new.CoroutinesSplashActivity">
+        <activity android:name=".advance_kotlin.resource_layout_id.ResourceLayoutId">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".advance_kotlin.customview.AdvanceMainActivity" />
+        <!--  <activity android:name=".fullcorountines.MainActivity">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>-->
+        <activity android:name=".fullcorountines.learn.retrofit.single.SingleNetworkCallActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.series.SeriesNetworkCallsActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.parallel.ParallelNetworkCallsActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.room.RoomDBActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.timeout.TimeoutActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.errorhandling.trycatch.TryCatchActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.errorhandling.supervisor.IgnoreErrorAndContinueActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.errorhandling.exceptionhandler.ExceptionHandlerActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.task.onetask.LongRunningTaskActivity" />
+        <activity android:name=".fullcorountines.learn.retrofit.task.twotasks.TwoLongRunningTasksActivity" />
+
+        <!-- <activity android:name=".splash.new.CoroutinesSplashActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+         <activity android:name=".advance_kotlin.customview.AdvanceMainActivity" />-->
 
 
         <!-- <activity

@@ -22,4 +22,15 @@
     <string name="fan_low">1</string>
     <string name="fan_medium">2</string>
     <string name="fan_high">3</string>
+
+    <string name="single_network_call">Single Network Call</string>
+    <string name="series_network_calls">Series Network Calls</string>
+    <string name="parallel_network_calls">Parallel Network Calls</string>
+    <string name="room_database">Room Database</string>
+    <string name="timeout">Timeout</string>
+    <string name="try_catch_error">Try-Catch Error</string>
+    <string name="exception_handler">ExceptionHandler</string>
+    <string name="ignore_error_and_continue">Ignore Error And Continue</string>
+    <string name="long_running_task">Long Running Task</string>
+    <string name="two_long_running_tasks">Two Long Running Tasks</string>
 </resources>

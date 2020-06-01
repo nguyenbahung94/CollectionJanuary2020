@@ -131,8 +131,8 @@ class MainActivityDSL : AppCompatActivity() {
 
                 it.reject.setOnClickListener {
                     Toast.makeText(context, "reject button click", Toast.LENGTH_LONG).show()
-                    dialog.dismiss()
-                }
+                    dialog.dismiss()                }
+
 
             }
         }
