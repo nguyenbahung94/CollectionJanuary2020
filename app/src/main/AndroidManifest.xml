@@ -17,13 +17,20 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".advance_kotlin.resource_layout_id.ResourceLayoutId">
+        <activity android:name=".view_binding.AddProfileActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- <activity android:name=".advance_kotlin.resource_layout_id.ResourceLayoutId">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
         <!--  <activity android:name=".fullcorountines.MainActivity">
               <intent-filter>
                   <action android:name="android.intent.action.MAIN" />
